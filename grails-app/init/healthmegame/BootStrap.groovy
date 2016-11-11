@@ -1,8 +1,8 @@
 package healthmegame
 
-import com.dekay.healthme.Role
-import com.dekay.healthme.User
-import com.dekay.healthme.UserRole
+import com.dekay.healthmegame.Role
+import com.dekay.healthmegame.User
+import com.dekay.healthmegame.UserRole
 
 class BootStrap {
 

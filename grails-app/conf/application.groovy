@@ -1,9 +1,9 @@
 
 
 // Added by the Spring Security Core plugin:
-grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.dekay.healthme.User'
-grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.dekay.healthme.UserRole'
-grails.plugin.springsecurity.authority.className = 'com.dekay.healthme.Role'
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'com.dekay.healthmegame.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'com.dekay.healthmegame.UserRole'
+grails.plugin.springsecurity.authority.className = 'com.dekay.healthmegame.Role'
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/',               access: ['permitAll']],
 	[pattern: '/error',          access: ['permitAll']],

@@ -1,4 +1,4 @@
-package com.dekay.healthme
+package com.dekay.healthmegame
 
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
@@ -46,4 +46,10 @@ class User implements Serializable {
 	static mapping = {
 		password column: '`password`'
 	}
+
+    @Override
+    String toString() {
+        "${username}"
+    }
+
 }

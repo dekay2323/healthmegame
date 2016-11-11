@@ -1,4 +1,4 @@
-package com.dekay.healthme
+package com.dekay.healthmegame
 
 import grails.gorm.DetachedCriteria
 import groovy.transform.ToString
