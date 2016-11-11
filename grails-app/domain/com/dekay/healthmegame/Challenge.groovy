@@ -4,13 +4,15 @@ class Challenge {
     String name
     String description
     int points = 1
+    Category category
 
-    static belongsTo = [category: Category]
+    static belongsTo = [sprint: Sprint]
 
     static constraints = {
         name nullable: false, blank: false
         description nullable: true
         points nullable: false
+        category nullable: true
     }
 
     @Override

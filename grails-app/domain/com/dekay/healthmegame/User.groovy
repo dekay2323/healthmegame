@@ -17,6 +17,7 @@ class User implements Serializable {
 	boolean accountExpired
 	boolean accountLocked
 	boolean passwordExpired
+    UserGroup userGroup
 
 	Set<Role> getAuthorities() {
 		UserRole.findAllByUser(this)*.role
@@ -41,6 +42,7 @@ class User implements Serializable {
 	static constraints = {
 		password blank: false, password: true
 		username blank: false, unique: true
+        userGroup nullable: true
 	}
 
 	static mapping = {
